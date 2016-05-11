@@ -1,0 +1,35 @@
+<nav class="navbar-default navbar-static-side" role="navigation">
+    <div class="sidebar-collapse">
+        <ul class="nav metismenu" id="side-menu">
+            <li class="nav-header">
+                <div class="dropdown profile-element">
+                    <a data-toggle="dropdown" class="dropdown-toggle" href="#/index">
+                        <span class="clear">
+                            <span class="block m-t-xs">
+                                <strong class="font-bold">奥本中仪</strong>
+                            </span>
+                            <span class="text-muted text-xs block">Auburn Systems.</span>
+                        </span>
+                    </a>
+                </div>
+                <div class="logo-element">
+                    AS
+                </div>
+            </li>
+
+            <li ng-class="{true: 'active', false: 'inactive'}[currentControl == 'index']">
+                <a href="#/index">
+                    <i class="fa fa-diamond"></i>
+                    <span class="nav-label">首页</span>
+                </a>
+            </li>
+
+            <li ng-class="{true: 'active', false: 'inactive'}[currentControl == 'company']">
+                <a href="#/company">
+                    <i class="fa fa-diamond"></i>
+                    <span class="nav-label">公司管理</span>
+                </a>
+            </li>
+        </ul>
+    </div>
+</nav>

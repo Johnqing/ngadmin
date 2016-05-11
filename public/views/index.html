@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="myApp">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="../libs/bootstrap.min.css"/>
+    <!--<link rel="stylesheet" href="http://webapplayers.com/inspinia_admin-v2.5/font-awesome/css/font-awesome.css"/>-->
+    <link rel="stylesheet" href="../libs/theme.css"/>
+    <script src="../libs/vapour.js"></script>
+    <script src="../build/app.js"></script>
+
+</head>
+<body>
+<div id="wrapper">
+    <nav-side currentControl></nav-side>
+    <div id="page-wrapper" class="gray-bg dashbard-1">
+        <as-header></as-header>
+        <div class="wrapper wrapper-content">
+            <div ui-view></div>
+        </div>
+    </div>
+</div>
+</body>
+</html>
